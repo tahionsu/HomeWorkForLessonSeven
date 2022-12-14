@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13bc2136-f90e-4e8a-a8a5-b60d3fc18bad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HomeWorkForLessonSeven.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/homework/firsttask/application/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/homework/firsttask/cryptedstream/CryptedInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/homework/firsttask/cryptedstream/CryptedOutputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/homework/secondtask/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/org/homework/thirdtask/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/org/homework/thirdtask/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/org/homework/thirdtask/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

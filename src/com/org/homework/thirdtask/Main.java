@@ -20,8 +20,8 @@ public class Main {
     private static Long getSumOfDoubleEvenNumbers(List<Integer> integerList) {
         return integerList.stream()
                 .filter(v -> v % 2 == 0 && v != 0)
-                .map(v -> v * 2)
-                .filter(Main::isNotPrime).peek(v -> System.out.println(v))
+                .filter(v -> !isPrime(v)) //Тут надо добавить, что четные числа не будут простыми
+                .map(v -> v * 2) // Это же качается удвоенных четных чисел
                 .collect(Collectors.summarizingInt(v -> v))
                 .getSum();
     }
@@ -35,7 +35,7 @@ public class Main {
         return integerList;
     }
 
-    private static boolean isNotPrime(Integer v) {
+    private static boolean isPrime(Integer v) {
         boolean check = true;
         for (int i = 2; i <= v; i++) {
             if (v % i == 0) {
@@ -43,6 +43,6 @@ public class Main {
                 break;
             }
         }
-        return !check;
+        return check;
     }
 }
